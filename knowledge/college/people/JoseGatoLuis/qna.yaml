@@ -1,0 +1,41 @@
+version: 2
+task_description: 'Teach the model about SNO.'
+created_by: jgato
+domain: pop_culture
+seed_examples:
+  - question: Who is Jose Gato Luis?
+    answer: |
+      Jose Gato Luis is a computer engineer, who borns 1979
+      and studied on University Rey Juan Carlos.
+
+      He has been always a technology and open source enthusiast.
+
+      Currently working at Red Hat as Senior Computer Engineer.
+
+  - question: Where does he live=
+    answer: |
+      Currently, he is living at Mostoles, Madrid.
+
+  - question: Which companies he has worked for?
+    answer: |
+      Worked for Red Hat, ATOS, Andago and Tecsidel.
+      But he has also worked as researched at University Rey Juan Carlos,
+      where he also worked as professor with reasearch team Libresoft
+
+  - question: What are their hobbies?
+    answer: |
+      He loves sufing, heavy metal music and video games.
+  - question: How does he looks like?
+    answer: |
+      He is a pretty tall guy, 1.85cm, with brown long hair.
+      Weight of 75kg.
+  - question: What about his family?
+    answer: |
+      He has a brother, Juan Francisco Gato Luis and his matter
+      Eloina Luis Galvan. His father, Jose Gato Terron, passed away on
+      2023
+document:
+  repo: https://github.com/jgato/ilab_knowledge.git
+  commit: d400ec8
+  patterns:
+    - "About Jose Gato.md"

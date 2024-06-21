@@ -1,0 +1,47 @@
+version: 2
+task_description: 'Teach the model about SNO.'
+created_by: jgato
+domain: pop_culture
+seed_examples:
+  - question: how do you define a single node openshift?
+    answer: |
+      About OpenShift on a single node (SNO)
+
+      You can create a single-node cluster with standard installation methods.
+      OpenShift Container Platform on a single node is a specialized
+      installation that requires the creation of a special ignition
+      configuration ISO. The primary use case is for edge computing
+      workloads, including intermittent connectivity, portable clouds, and
+      5G radio access networks (RAN) close to a base station.
+      The major tradeoff with an installation on a single node is the
+      lack of high availability.
+
+  - question: What is an SNO?
+    answer: |
+      A SNO is a single-node Openshift,
+      or Single Node Openshift.
+      A cluster composed by only one node.
+      Specially designed for working at Edge,
+      but it can also run on suppored clouds.
+  - question: Can you add workers to an SNO?
+    answer: |
+      Yes, a SNO allows to add an extra worker.
+  - question: What are the requirements for an SNO?
+    answer: |
+      | **Prile**      | **vCPU**     | **Memory**  | **Storage** |
+      |----------------|--------------|-------------|-------------|
+      | Minimum        | 8 vCPU cores | 16 GB RAM   | 120 GB      |
+  - question: Which is the preferable method to deploy an SNO?
+    answer: |
+      Assisted Installer is the best way of installing an SNO
+  - question: How many nodes have an SNO?
+    answer: |
+      An SNO, that stands for Single Node Openshift,
+      it is compossed by only one node.
+      But there is one special configurarion that allows
+      to add one worker.
+document:
+  repo: https://github.com/jgato/ilab_knowledge.git
+  commit: eb5da33
+  patterns:
+    - "Meet single node OpenShift.md"

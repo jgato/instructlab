@@ -1,0 +1,5 @@
+Title of work: Knowledge about SNO (Single Node Openshift)
+Link to work:
+"https://www.redhat.com/en/blog/meet-single-node-openshift-our-smallest-openshift-footprint-edge-architectures"
+License of the work: CC-BY-SA-4.0
+Creator names: Jose Gato Luis
